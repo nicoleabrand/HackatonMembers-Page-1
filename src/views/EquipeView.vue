@@ -5,17 +5,24 @@ export default {
         return {
             equipe: [
                 {
-                    nome: 'Fulano',
-                    cargo: 'Desenvolvedor'
+                    nome: 'Nicole'
                 },
                 {
-                    nome: 'Ciclano',
-                    cargo: 'Designer'
+                    nome: 'Eduarda'
                 },
                 {
-                    nome: 'Beltrano',
-                    cargo: 'Gerente de Projetos'
+                    nome: 'Nathaly'
+                },
+                {
+                    nome: 'Matheus Henrique'
+                },
+                {
+                    nome: 'Gabriel V'
+                },
+                {
+                    nome: 'Yasmin'
                 }
+
             ]
         }
     }
