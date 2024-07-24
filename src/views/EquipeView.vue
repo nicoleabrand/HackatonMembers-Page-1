@@ -5,22 +5,28 @@ export default {
         return {
             equipe: [
                 {
-                    nome: 'Nicole'
+                    nome: 'Nicole',
+                    turma: '2info2'
                 },
                 {
-                    nome: 'Eduarda'
+                    nome: 'Eduarda',
+                    turma: '2info2'
                 },
                 {
-                    nome: 'Nathaly'
+                    nome: 'Nathaly',
+                    turma: '2info2'
                 },
                 {
-                    nome: 'Matheus Henrique'
+                    nome: 'Manuela H.',
+                    turma: '2info3'
                 },
                 {
-                    nome: 'Gabriel V'
+                    nome: 'Gabriel V',
+                    turma: '2info2'
                 },
                 {
-                    nome: 'Yasmin'
+                    nome: 'Yasmin',
+                    turma: '2info2'
                 }
 
             ]
@@ -35,7 +41,7 @@ export default {
         <ul>
             <li v-for="membro in equipe" :key="membro.nome">
                 <h2>{{ membro.nome }}</h2>
-                <p>{{ membro.cargo }}</p>
+                <p>{{ membro.turma}}</p>
             </li>
         </ul>
     </div>
