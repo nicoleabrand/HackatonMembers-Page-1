@@ -4,19 +4,15 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-
     <div class="wrapper">
       <h1>Membros Hackathon</h1>
-
       <nav>
         <div class="btn">
                 <RouterLink to="/Equipe">Equipe</RouterLink>
         </div>
-  
       </nav>
     </div>
   </header>
-
   <RouterView />
 </template>
 
@@ -106,5 +102,10 @@ nav{
   padding-bottom: 3%;
   margin-left: 2%;
   padding-top: 1%;
+}
+a{
+  color: rgb(12, 12, 12);
+background: #dadada;
+border-radius: 3px;
 }
 </style>
