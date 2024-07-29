@@ -8,12 +8,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <div class="wrapper">
       <h1>Membros Hackathon</h1>
-
       <nav>
         <div class="btn">
                 <RouterLink to="/Equipe">Equipe</RouterLink>
         </div>
-
       </nav>
     </header>
   </div>
