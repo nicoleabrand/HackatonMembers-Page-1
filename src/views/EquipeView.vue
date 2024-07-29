@@ -40,13 +40,14 @@ export default {
         <h1>Equipe</h1>
         <ul>
             <li v-for="membro in equipe" :key="membro.nome">
+                <RouterLink :to="{ name: 'membro', params: {nome: membro.nome} }">
                 <h2>{{ membro.nome }}</h2>
-                <p>{{ membro.turma}}</p>
+            </RouterLink>
+                <p>{{ membro.turma }}</p>
             </li>
         </ul>
     </div>
 </template>
 
 <style scoped>
-/* Your component-specific styles go here */
 </style>
