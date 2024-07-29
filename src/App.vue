@@ -3,11 +3,15 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="wrapper">
-    <header>
+
+  <header>
+
+    <div class="wrapper">
       <h1>Membros Hackathon</h1>
       <nav>
-        <RouterLink to="/Equipe" class="button">Equipe</RouterLink>
+        <div class="btn">
+                <RouterLink to="/Equipe">Equipe</RouterLink>
+        </div>
       </nav>
     </header>
   </div>
@@ -34,17 +38,6 @@ nav .button{
   margin: 3%;
   margin-top: 0%;
   text-decoration: none;
-}
-
-h1{
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 400%;
-  text-align: left;
-  padding: 2%;
-  padding-bottom: 0px;
- 
 }
 
 header{
