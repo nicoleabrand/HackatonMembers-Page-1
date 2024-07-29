@@ -1,6 +1,6 @@
 
 <template>
-    <div>
+    <div class="card">
         
         <h1>{{ membro.nome }}</h1>
         <div v-if="membro">
@@ -26,12 +26,12 @@ export default {
     },
 
     created() {const equipe = [
-            { nome: 'Nicole', turma: '2info2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Eduarda', turma: '2info2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Nathaly', turma: '2info2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Manuela H.', turma: '2info3', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Gabriel V', turma: '2info2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Yasmin', turma: '2info2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' }
+            { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Gabriel Vinícius', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Yasmin Mello', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' }
         ];
 
         // Encontrar o membro com base no nome passado como prop
@@ -39,3 +39,19 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+    .card{
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 50px;
+        padding: 5%;
+        background:rgb(158, 158, 158);
+        border-radius: 5px;
+        color: white;
+    }
+
+    h1{
+        font-family: 'Bebas Neue', sans-serif;
+    }
+</style>
