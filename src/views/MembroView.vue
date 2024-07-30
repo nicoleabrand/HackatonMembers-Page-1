@@ -26,7 +26,7 @@ export default {
     },
 
     created() {const equipe = [
-            { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'Natural de Joinville, atual estudante do IFC Araquari. Nascida em 2007, simpatiza com Banco de Dados.', email: 'nicoleabrand13@gmail.com' },
+            { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'Natural de Joinville, atual estudante do IFC Araquari. Nascida em 2007, gosta de Banco de Dados e tem espírito de liderança.', email: 'nicoleabrand13@gmail.com' },
             { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
