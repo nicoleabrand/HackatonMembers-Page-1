@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Membros Hackathon</h1>
       <nav>
         <div class="btn">
-                <RouterLink to="/Equipe">Equipe</RouterLink>
+                <RouterLink to="/Equipe">Equipe:</RouterLink>
         </div>
       </nav>
     </div>
@@ -93,7 +93,7 @@ h1{
 
 header{
   background-color: rgb(124, 124, 124);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 nav{
@@ -105,8 +105,8 @@ nav{
   padding-top: 1%;
 }
 a{
-  color: rgb(12, 12, 12);
-background: #dadada;
+  color: rgb(122, 117, 117);
+background: #e7e7e7;
 border-radius: 3px;
 }
 </style>
