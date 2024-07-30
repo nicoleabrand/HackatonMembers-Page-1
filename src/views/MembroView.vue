@@ -28,7 +28,7 @@ export default {
     created() {const equipe = [
             { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'Mora em Joinville, tem 16 anos, estuda no IFC câmpus Araquari. Irá participar na criação do figma no projeto em grupo do Hackathon.', email: 'eduardafheidemann@gmail.com' },
-            { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'Mora em Joinville, tem 16 anos, estuda no IFC câmpus Araquari. Irá participar na criação do figma no projeto em grupo do Hackathon.', email: 'nathalycarolineadaoo@gmail.com' },
             { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Gabriel Vinícius', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos e é estudante no IFC câmpus Araquari. Desenvolvedor back-end', email: 'gabrielviniciuscorrea204@gmail.com' },
             { nome: 'Yasmin Mello', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos, é estudante no IFC câmpus Araquari. Será a principal dev de CSS no projeto em grupo do Hackathon.', email: 'melloyasminm@gmail.com' }
