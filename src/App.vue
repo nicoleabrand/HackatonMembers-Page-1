@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1>Membros Hackathon</h1>
       <nav>
         <div class="btn">
-                <RouterLink to="/Equipe">Equipe</RouterLink>
+                <RouterLink to="/Equipe">Equipe:</RouterLink>
         </div>
       </nav>
     </div>
@@ -17,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -80,7 +81,7 @@ nav a:first-of-type {
 }
 
 h1{
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 400%;
@@ -92,7 +93,7 @@ h1{
 
 header{
   background-color: rgb(124, 124, 124);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 nav{
@@ -104,8 +105,8 @@ nav{
   padding-top: 1%;
 }
 a{
-  color: rgb(12, 12, 12);
-background: #dadada;
+  color: rgb(122, 117, 117);
+background: #e7e7e7;
 border-radius: 3px;
 }
 </style>
