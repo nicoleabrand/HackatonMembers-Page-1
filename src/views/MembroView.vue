@@ -29,9 +29,7 @@ export default {
             { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-
             { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'Estudante da turma 2info3, gosto de programar com foco em backend e de circuitos', email: 'xxxxx@gmail.com' },
-            
             { nome: 'Gabriel Vinícius', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos e é estudante no IFC câmpus Araquari. Desenvolvedor back-end', email: 'gabrielviniciuscorrea204@gmail.com' },
             { nome: 'Yasmin Mello', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos, é estudante no IFC câmpus Araquari. Será a principal dev de CSS no projeto em grupo do Hackathon.', email: 'melloyasminm@gmail.com' }
         ];
