@@ -29,7 +29,7 @@ export default {
             { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Manuela Hostim', turma: '2INFO3', descricao: 'Estudante da turma 2info3, gosto de programar com foco em backend e de circuitos eletronicos!', email: 'hostimmanu@gmail.com' },
+            { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'Estudante da turma 2info3, gosto de programar com foco em backend e de circuitos', email: 'xxxxx@gmail.com' },
             { nome: 'Gabriel Vinícius', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Yasmin Mello', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos, é estudante no IFC câmpus Araquari. Será a principal dev de CSS no projeto em grupo do Hackathon.', email: 'melloyasminm@gmail.com' }
         ];
@@ -41,6 +41,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     .card{
         margin-left: 35%;
         margin-right: 35%;
@@ -52,6 +53,6 @@ export default {
     }
 
     h1{
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
 </style>
