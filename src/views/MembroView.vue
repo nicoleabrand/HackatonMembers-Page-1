@@ -29,7 +29,7 @@ export default {
             { nome: 'Nicole Brand', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Eduarda Heidemann', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Nathaly Adão', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
-            { nome: 'Manuela Hostin', turma: '2INFO3', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
+            { nome: 'Manuela Hostim', turma: '2INFO3', descricao: 'Estudante da turma 2info3, gosto de programar com foco em backend e de circuitos eletronicos!', email: 'hostimmanu@gmail.com' },
             { nome: 'Gabriel Vinícius', turma: '2INFO2', descricao: 'xxxxxxxxxxxx', email: 'xxxxx@gmail.com' },
             { nome: 'Yasmin Mello', turma: '2INFO2', descricao: 'Mora em Joinville, tem 17 anos, é estudante no IFC câmpus Araquari. Será a principal dev de CSS no projeto em grupo do Hackathon.', email: 'melloyasminm@gmail.com' }
         ];
@@ -48,7 +48,7 @@ export default {
         padding: 5%;
         background:rgb(158, 158, 158);
         border-radius: 5px;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     h1{

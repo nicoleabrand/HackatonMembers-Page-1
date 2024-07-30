@@ -56,7 +56,7 @@ export default {
 h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 280%;
-  color: rgb(92, 92, 92);
+  color: rgb(0, 0, 0);
 }
 
 a {
